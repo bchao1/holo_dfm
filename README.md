@@ -1,14 +1,14 @@
-# Nerfies
+# Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation.
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for [our project website](https://nerfies.github.io). Our work will be presented in SIGGRAPH Asia 2024.
 
-If you find Nerfies useful for your work please cite:
+Please consider citing our paper if you find our work useful:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{chao2024holoDFM,
+  author    = {Brian Chao and Manu Gopakumar and Suyeon Choi and Jonghyun Kim and Liang Shi and Gordon Wetzstein},
+  title     = {Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation},
+  conference   = {ACM SIGGRAPH Asia},
+  year      = {2024},
 }
 ```
 

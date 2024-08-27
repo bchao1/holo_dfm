@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="The novel combination of a multisource laser array and a dynamic Fourier amplitude modulator significantly improves holographic display étendue and light field hologram image quality.">
+  <meta name="keywords" content="holography, etendue, eyebox, displays, augmented reality, virtual reality">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://bchao1.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://bchao1.github.io">Brian Chao</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://manugopa.github.io">Manu Gopakumar</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://choisuyeon.github.io">Suyeon Choi</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://research.nvidia.com/person/jonghyun-kim">Jonghyun Kim</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://people.csail.mit.edu/liangs/">Liang Shi</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Stanford University</span>
+            <span class="author-block"><sup>2</sup>NVIDIA</span>
+            <span class="author-block"><sup>3</sup>MIT</span>
+          </div>
+
+          <div class="is-size-4 publication-authors">
+            <span class="author-block"><em>SIGGRAPH Asia 2024</em></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming Soon)</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/representative_image.jpg" style="width: 100%;">
+      <h2 class="subtitle has-text-centered">
+        Conventional single-source holoraphy only supports a small étendue, hence the observed image quickly degrades and fades to black
+        when user's pupil moves away from the eyebox (b, c, d). Using multi-source illumination (a), our holographic display creates a significantly 
+        expanded coverage of addressable spatial frequencies (e), which, combined with our content-adaptive Fourier modulation strategy, 
+        achieves a large étendue with better image quality across an expanded eyebox (f, g).
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Emerging holographic display technology offers unique capabilities for next-generation virtual reality systems. 
+            Current holographic near-eye displays, however, only support a small étendue, which results in a direct tradeoff 
+            between achievable field of view and eyebox size. Étendue expansion has recently been explored, but existing approaches 
+            are either fundamentally limited in the image quality that can be achieved or they require extremely high-speed spatial 
+            light modulators.
+          </p>
+          <p>
+            We describe a new étendue expansion approach that combines <strong>multiple coherent sources with content-adaptive 
+            amplitude modulation of the hologram spectrum</strong> in the Fourier plane. To generate time-multiplexed phase and amplitude patterns 
+            for our spatial light modulators, we devise a <strong>pupil-aware gradient-descent-based computer-generated holography algorithm</strong>
+            that is supervised by a large-baseline target light field. Compared with relevant baseline approaches, our method demonstrates 
+            significant improvements in image quality and étendue in simulation and with an experimental holographic display prototype.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src=""
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Simulation Results -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">System Design</h2>
+        <div class="content has-text-justified">
+          <p>
+            Previous étendue expansion techniques suffer from the following drawbacks:
+            <ul>
+              <li><strong>Mask-based étendue expansion </strong>techniques reconstruct low-contrast and speckly images. </li>
+              <li>By using <strong>multiple sources</strong>, the eyebox is expanded but the light field reconstruction 
+                quality is poor due to copies created by multiple sources and HDOs.  </li>
+              <li> <strong>Steered illumination</strong> configurations achieve decent image quality, however such approaches can only be
+                implemented using high-speed SLMs due to the large number of required time-multiplexed frames.</li>
+            </ul>
+          </p>
+        </div>
+        <video id="baseline_simulation" autoplay muted loop playsinline height="100">
+          <source src="./static/videos/website_simulation_video_baseline.mp4"
+                  type="video/mp4">
+        </video>
+        <br></br>
+        <p>
+          By combining <strong>multiple coherent sources with content-adaptive amplitude modulation of the hologram spectrum</strong> 
+          in the Fourier plane, our system achieves the best image quality across the expanded eyebox while using less time-multiplexed frames.
+        </p>
+        <video id="ours_simulation" autoplay muted loop playsinline height="100">
+          <source src="./static/videos/website_video_simulation_ours.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <!--/ Experimental Results -->
+
+    <!-- Experimental Results. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Experimental Results</h2>
+
+        <!-- Prototype -->
+        <h3 class="title is-4">Hardware Prototype</h3>
+        <div class="content has-text-justified">
+          <p>
+            We implement the proposed 3D holographic display design and evaluate our algorithms on the system. A custom-printed
+            3D mount is used to house the multisource laser array. 
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/hw_setup.png" style="width: 80%;"/>
+        </div>
+        <br/>
+        <!--/ Prototype -->
+
+        <!-- Captured resuts -->
+        <h3 class="title is-4">Captured Light Fields and Focal Stacks</h3>
+        <div class="content has-text-justified">
+          <p>
+            We capture light fields and focal stacks displayed by our system using an adjustable iris and a focus-tunable lens. 
+            Parallax and in-focus/defocus are clearly visible in the captured results.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/captured_results.png" style="width: 100%;"/>
+        </div>
+        <!--/ Captured results . -->
+
+      </div>
+    </div>
+    <!--/ Experimental Results -->
+
+
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Projects</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            You might be interested in the following related projects from <a href="https://www.computationalimaging.org">our lab</a>, where we develop <strong>AI algorithms to produce 2D, 3D, and 4D holograms</strong>:
+          </p>
+          <ul>
+            <li>S. Choi et al., <a href="https://dl.acm.org/doi/abs/10.1145/3528233.3530734">Time-Multiplexed Neural Holography</a>, ACM SIGGRAPH, 2022</li>
+            <li>S. Choi et al., <a href="https://dl.acm.org/doi/abs/10.1145/3478513.3480542">Neural 3D Holography</a>, ACM SIGGRAPH Asia, 2021</li>
+            <li>Y. Peng et al., <a href="https://www.computationalimaging.org/publications/neuralholography/">Neural Holography</a>, ACM SIGGRAPH Asia, 2020</li>
+          </ul>
+          <p>
+            and holographic near-eye display designs for <strong>compact AR/VR glasses</strong>:
+          </p>
+          <ul>
+            <li>M. Gopakumar et al., <a href="https://www.nature.com/articles/s41586-024-07386-0">Full-colour 3D Holographic Augmented-Reality Displays with Metasurface Waveguides</a>, Nature, 2024</li>
+            <li>J. Kim et al., <a href="https://dl.acm.org/doi/abs/10.1145/3528233.3530739">Holographic Glasses for Virtual Reality</a>, ACM SIGGRAPH, 2022</li>
+            <li>M. Gopakumar et al., <a href="https://opg.optica.org/ol/fulltext.cfm?uri=ol-46-23-5822&id=464968">Unfiltered Holography</a>, Optics Letters, 2021</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/ Concurrent Work. -->
+
+    <!-- Acknowledgement -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Acknowledgement</h2>
+
+        <div class="content has-text-justified">
+          Brian Chao is supported by the Stanford Graduate Fellowship and the NSF GRFP. 
+          Manu Gopakumar is supported by the Stanford Gradudate Fellowship. 
+          Suyeon Choi is supported by the Meta Research PhD Fellowship.
+
+        </div>
+      </div>
+    </div>
+    <!--/ Concurrent Work. -->
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{chao2024holoDFM,
+  author    = {Brian Chao and Manu Gopakumar and Suyeon Choi and Jonghyun Kim and Liang Shi and Gordon Wetzstein},
+  title     = {Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation},
+  conference   = {ACM SIGGRAPH Asia},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://bchao1.github.io" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website template from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

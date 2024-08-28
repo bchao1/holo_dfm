@@ -1,6 +1,6 @@
 # Large Étendue 3D Holographic Display with Content-adpative Dynamic Fourier Modulation.
 
-This is the repository that contains source code for [our project website](https://nerfies.github.io). Our work will be presented in SIGGRAPH Asia 2024.
+This is the repository that contains source code for [our project website](https://bchao1.github.io/holo_dfm.github.io/). Our work will be presented in SIGGRAPH Asia 2024.
 
 Please consider citing our paper if you find our work useful:
 ```
